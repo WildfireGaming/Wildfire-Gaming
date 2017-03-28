@@ -1,0 +1,63 @@
+ {
+	border: white dashed 1px;
+}
+
+html {
+	background: black;
+	background-image: url(resources/fire.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Title {
+	color: orange;
+	text-align: center;
+	font-size: 64px;
+	font-family: Impact, Arial, Calibri;
+}
+
+.TriColumns {
+	background-color: white;
+	margin-left: 16px;
+	margin-right: 16px;
+	width: 270px;
+	height: 288px;
+	text-align: center;
+	color: gray;
+}
+
+.copyright {
+	clear: both;
+	text-align: center;
+	background: gray;
+	height: 30px;
+}
+
+.TextBox {
+	background: white;
+	margin-left: 156px;
+	margin-right: 156px;
+	color: gray;
+}
+
+#MenuButton {
+	position: absolute;
+	visibility: visible;
+	left: 50px;
+	top: 75px;
+	z-index: 200;
+}
+
+#columns {
+	margin-left: 156px;
+	margin-right: 156px;
+}
+
+a {
+	color: darkorange;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FF4500;
+}

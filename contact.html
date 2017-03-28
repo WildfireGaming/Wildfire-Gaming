@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Wildfire Gaming | Contact</title>
+	<link type="text/css" rel="stylesheet" href="data/stylesheet.css">
+	<link type="text/css" rel="stylesheet" href="data/menubuttonstylesheet.css">
+	<script type="text/javascript" src="data/dropdown.js"></script>
+</head>
+
+<body>
+
+	<div id="MenuButton">
+		<div class="dropdown">
+			<button onclick="myFunction()" class="dropbtn"></button>
+			<div id="myDropdown" class="dropdown-content">
+				<a href="index.html">Home</a>
+				<a href="information.html">Information</a>
+				<a href="services.html">Services</a>
+				<a href="contact.html">Contact</a>
+			</div>
+		</div>
+	</div>
+	
+	<h1 class="Title">Wildfire Gaming<br><hr id="Line"></h1>
+	
+	<div class="TextBox">
+		<h2>Contact us at Wildfire Gaming<br><hr></h2>
+		<form action="contact.php" method="post">
+			Your name<br>
+			<input type="text" name="cf_name"><br>
+			Your e-mail<br>
+			<input type="text" name="cf_email"><br>
+			Message<br>
+			<textarea name="cf_message"></textarea><br>
+			<input type="submit" value="Send">
+			<input type="reset" value="Clear">
+		</form>
+	</div>
+	
+	<br>
+	<div class="copyright">
+		<p>©2017 by Wildfire Gaming</p>
+	</div>
+	
+</body>
+
+</html>
