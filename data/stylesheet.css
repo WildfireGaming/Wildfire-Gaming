@@ -43,7 +43,9 @@ html {
 
 .social {
 	float: right;
-	margin-top: 25px;
+	vertical-align: middle;
+	display: inline;
+	padding-top: 25px;
 }
 
 #MenuButton {
