@@ -16,15 +16,19 @@ html {
 	font-family: Impact, Arial, Calibri;
 }
 
+#columns {
+	overflow: hidden;
+}
+
 .TriColumns {
 	background-color: white;
 	display: inline;
-	margin-left: 16px;
-	margin-right: 16px;
+	margin: 20px;
 	width: 270px;
-	height: 288px;
 	text-align: center;
 	color: gray;
+	padding-bottom: 100%;
+	margin-bottom: -100%;
 }
 
 .copyright {
