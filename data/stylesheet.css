@@ -10,7 +10,6 @@ html {
 }
 
 .Title {
-	margin-left: 91px;
 	color: orange;
 	text-align: center;
 	font-size: 64px;
@@ -20,9 +19,9 @@ html {
 .TriColumns {
 	background-color: white;
 	display: inline;
-	margin-left: 2%;
-	margin-right: 2%;
-	width: 29%;
+	margin-left: 16px;
+	margin-right: 16px;
+	width: 270px;
 	height: 288px;
 	text-align: center;
 	color: gray;
