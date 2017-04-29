@@ -9,6 +9,10 @@ html {
 	background-size: cover;
 }
 
+img {
+	max-width: 100%;
+}
+
 .Title {
 	color: orange;
 	text-align: center;
@@ -17,12 +21,10 @@ html {
 }
 
 .TriColumns {
-	background-color: white;
 	display: inline;
 	margin-left: 16px;
 	margin-right: 16px;
 	width: 270px;
-	height: 280px;
 	text-align: center;
 	color: gray;
 }
@@ -36,29 +38,25 @@ html {
 
 .TextBox {
 	background: white;
-	margin-left: 156px;
-	margin-right: 156px;
-	color: gray;
-}
-
-.social {
-	float: right;
-	vertical-align: middle;
-	display: inline;
-	padding-top: 25px;
+	width: 75%;
+	margin: 0px auto;
+	padding-top: 1px;
+	padding-bottom: 5px;
 }
 
 #MenuButton {
 	position: absolute;
 	visibility: visible;
-	left: 50px;
-	top: 75px;
+	left: 3%;
+	top: 12%;
 	z-index: 200;
 }
 
 #columns {
-	margin-left: 156px;
-	margin-right: 156px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding: 10px;
 }
 
 a {
@@ -68,4 +66,8 @@ a {
 
 a:hover {
 	color: #FF4500;
+}
+
+input, textarea {
+	max-width: 100%;
 }

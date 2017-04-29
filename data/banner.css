@@ -1,12 +1,14 @@
 #container {
-	width: 1000px;
+	width: 90%;
+	height: 25%;
 	overflow: hidden;
 	margin: 50px auto;
 	background: white;
 }
 
 .banner {
-	height: 433px;
+	/*height: 433px;*/
+	height: 100%;
 	width: 7100px;
 }
 
