@@ -42,6 +42,8 @@ img {
 	margin: 0px auto;
 	padding-top: 1px;
 	padding-bottom: 5px;
+	padding-left: 4px;
+	padding-right: 4px;
 }
 
 #MenuButton {
