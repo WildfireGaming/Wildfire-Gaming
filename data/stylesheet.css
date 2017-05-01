@@ -1,12 +1,16 @@
- {
+/* {
 	border: white dashed 1px;
-}
+} */
 
 html {
 	background: black;
 	background-image: url(resources/fire.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+body {
+	font-size: 20px;
 }
 
 img {
@@ -34,6 +38,10 @@ img {
 	text-align: center;
 	background: gray;
 	height: 30px;
+	width: 100%;
+	position: relative;
+	margin: 0;
+	clear: both;
 }
 
 .TextBox {
