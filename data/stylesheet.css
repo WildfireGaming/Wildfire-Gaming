@@ -139,3 +139,13 @@ input, textarea {
     border: none;
     cursor: pointer;
 }
+
+.droplinks {
+	column-count: 2;
+	column-gap: 1px;
+}
+
+.social {
+	column-count: 2;
+	column-gap: 1px;
+}
